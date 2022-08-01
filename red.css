@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "red2";
+    src: url(font/chinese_rocks/chinese\ rocks\ rg.otf);
+}
+
+body {
+    background: rgb(160, 1, 1);
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fundo {
+    position: absolute;
+    width: 1360px;
+    margin-top: -50px;
+}
+
+.preto {
+    position: absolute;
+    background: black;
+    width: 1360px;
+    height: 400px;
+    margin-top: 375px;
+}
+.trac1 {
+    position: absolute;
+    border: 1px solid #b3b3b393;
+    width: 300px;
+    height: 0px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.trac2 {
+    position: absolute;
+    border: 1px solid #b3b3b393;
+    width: 450px;
+    height: 0px;
+    margin-top: 50px;
+    margin-left: 830px;
+}
+.trac3 {
+    position: absolute;
+    border: 1px solid #b3b3b393;
+    width: 0px;
+    height: 655px;
+    margin-top: 90px;
+    margin-left: 1335px;
+}
+.trac4 {
+    position: absolute;
+    border: 1px solid #b3b3b393;
+    width: 0px;
+    height: 691px;
+    margin-top: 52px;
+    margin-left: 20px;
+}
+.trac5 {
+    position: absolute;
+    border: 1px solid #b3b3b393;
+    width: 1313px;
+    height: 0px;
+    margin-top: 745px;
+    margin-left: 20px;
+}
+
+.rock {
+    position: absolute;
+    width: 70px;
+    margin-left: 1285px;
+    margin-top: 30px;
+}
+
+.redead {
+    position: absolute;
+    width: 170px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.menu {
+    position: absolute;
+   margin-left: 350px;
+   margin-top: 40px;
+}
+.menu a {
+    font-family: "red2";
+    color: aliceblue;
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.menu a:hover {
+    transition: 1s;
+    color: black;
+}
+
+/* SOBRE PERSONAGENS*/
+
+.content {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 3px;
+}
+
+input {
+    display: none;
+}
+.navigation {
+    position: absolute;
+    margin-top: -60px;
+
+}
+.bar {
+    background-color: #b3b3b393;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.bar:hover {
+    -webkit-transform: scale(1.5);
+    transition: 1s;
+    background-color: red;
+}
+
+h3 {
+    font-family: "red2";
+    color: white;
+    margin-left: 85px;
+    margin-top: -4px;
+    font-size: 20px;
+}
+
+.list h3 {
+    position: absolute;
+    width: 200px;
+}
+
+.list img {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list label {
+    margin-top: 45px;
+    margin-left: -32px;
+}
+
+
+#icone {
+    position: absolute;
+    margin-left: 680px;
+    margin-top: -384px;
+    width: 700px;
+}
+
+#icone2 {
+    position: absolute;
+    width: 260px;
+    margin-left: 370px;
+    margin-top: -40px;
+}
+
+
+
+
